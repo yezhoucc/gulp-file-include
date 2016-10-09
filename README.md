@@ -2,7 +2,9 @@
 
 * 安装gulp-content-include
 * 使用 
+
   >js代码
+  
     var gulp = require('gulp')
     var contentInclude = require('gulp-content-includer')
     gulp.task('fileinclude', function() {
