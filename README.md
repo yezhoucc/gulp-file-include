@@ -4,8 +4,8 @@
 * 使用 
 
     ` 
-    var gulp = require('gulp')
-    var contentInclude = require('gulp-content-includer')
+    var gulp = require('gulp');
+    var contentInclude = require('gulp-content-includer');
     gulp.task('fileinclude', function() {
          gulp.src('src/**.html')
             .pipe(fileinclude({
